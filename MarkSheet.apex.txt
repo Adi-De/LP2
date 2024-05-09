@@ -1,0 +1,16 @@
+public class ok {
+    public void per(integer mark, integer total) {
+        system.debug('Percentage :- ' + (mark * 100) / total);
+    }
+
+    public void grade(integer mark, integer total) {
+        integer g = (mark * 100) / total;
+        if (g > 90) {
+            system.debug('A');
+        } else if (g < 90 && g > 80) {
+            system.debug('B');
+        } else {
+            system.debug('C');
+        }
+    }
+}

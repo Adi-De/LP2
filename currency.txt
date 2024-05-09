@@ -1,0 +1,9 @@
+public class ass9 {
+    public void rupee_to_dollar(integer x) {
+        system.debug(x/80);
+    }
+   
+    public void dollar_to_rupee(integer y) {
+        system.debug('rupees is' +y*80 );
+    }
+}
